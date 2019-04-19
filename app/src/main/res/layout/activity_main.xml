@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/album_art"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        app:civ_background_color="#000000"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/play"
+        android:onClick="play"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pause"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="pause"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/stop"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="310dp"
+        android:onClick="stop"
+        />
+
+
+</RelativeLayout>
